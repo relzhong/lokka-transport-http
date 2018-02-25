@@ -1,6 +1,9 @@
-# lokka-transport-http
+# lokka-transport-http-isomorphic
 
 Isomorphic HTTP Transport Layer for [Lokka](https://github.com/kadirahq/lokka)
+
+## Drop node 0.10 support
+remove node-fetch as it cause webpack warning, and use isomorphic-fetch.
 
 ---
 
@@ -11,7 +14,7 @@ This is a [graphql-express](https://github.com/graphql/express-graphql) compatib
 Install the package:
 
 ```
-npm i --save lokka-transport-http
+npm i --save lokka-transport-http-isomorphic
 npm i --save lokka
 ```
 

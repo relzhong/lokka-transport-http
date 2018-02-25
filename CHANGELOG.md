@@ -1,5 +1,12 @@
 # Change Log
 
+## v1.6.2
+25 February 2018
+Drop node-fetch and use isomorphic-fetch.
+
+Fixes [#18](https://github.com/kadirahq/lokka-transport-http/issues/18).
+That causes due to a typo came with `v1.6.0`.
+
 ## v1.6.1
 31 October 2017
 
